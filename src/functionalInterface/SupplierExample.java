@@ -8,6 +8,7 @@ public class SupplierExample {
 //    supplier method :- represents a supplier of results, which does not accept any input but produces a result.
 //              Gets  a result.
 //              Returns:  a result
+//    This is a functional interface whose functional method is get().
 
         Supplier<Double> randomNumbersupplier =
                 () -> Math.random();
